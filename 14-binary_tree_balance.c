@@ -26,6 +26,7 @@ size_t binary_tree_height_forbalance(const binary_tree_t *tree)
 		return ((left_side > right_side) ? left_side : right_side);
 	}
 }
+
 /**
  * binary_tree_balance -calculates balance factor of a binary tree
  * @tree: binary tree to calculate
